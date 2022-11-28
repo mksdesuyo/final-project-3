@@ -1,0 +1,9 @@
+#about {
+  background: linear-gradient(270deg, white 95%, #020e35 5%);
+  border-bottom-left-radius: 75% 100px;
+  border-bottom-right-radius: 0% 100px;
+}
+
+#services {
+  background: linear-gradient(180deg, white 56.75%, #020e35 43.25%);
+}
