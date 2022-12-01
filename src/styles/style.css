@@ -4,6 +4,31 @@
   border-bottom-right-radius: 0% 100px;
 }
 
+#works {
+  background-color: #020e35;
+  color: white;
+}
+
 #services {
   background: linear-gradient(180deg, white 56.75%, #020e35 43.25%);
+}
+
+#works p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#works #sub {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footers {
+  background-color: #020e35;
+}
+
+.btnn {
+  background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+ul {
+  color: #fff;
 }
