@@ -90,7 +90,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-line-clamp: 4;
+  /* number of lines to show */
   -webkit-box-orient: vertical;
 }
 
@@ -145,4 +146,9 @@
 
 .footer-item ul {
   color: #fff;
+}
+
+.oke {
+  width: 100%;
+  height: auto;
 }
