@@ -5,7 +5,12 @@ $(document).ready(function() {
         'Selamat, kelas berhasil dibuka!',
         'Klik ok untuk memulai belajar.',
         'success'
-      )
+      ).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+          $(".modal__close").modal("hide");
+        }
+      })
     })
   })
 });
