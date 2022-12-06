@@ -6,11 +6,13 @@ $(document).ready(function() {
         'Klik ok untuk memulai belajar.',
         'success'
       ).then((result) => {
-        /* Read more about isConfirmed, isDenied below */
         if (result.isConfirmed) {
           $(".modal__close").modal("hide");
         }
-      })
+      });
     })
-  })
+  });
+  var date = new Date();
+  var year = date.getFullYear();
+  $("#date").html(year);
 });
